@@ -1,0 +1,14 @@
+{
+	"name": "sf3",
+	"commands": [
+		{
+			"type": "bump",
+			"commands": [
+				{ "name": "win", "details": "Wins" },
+				{ "name": "lose", "details": "Loses" },
+				{ "name": "taunt", "details": "Taunt KO" },
+				{ "name": "rage", "details": "Rage Quits" }
+			]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			body {
+				font: 100% Helvetica, 'Segoe UI', sans-serif;
+			}
+			table {
+				min-width: 230px;
+				max-width: 230px;
+			}
+			tr {
+				display: block;
+				padding: 10px;
+				margin-bottom: 10px;
+				border-radius: 8px;
+				background: #444;
+				color: #fff;
+			}
+			td.title {
+				min-width: 130px;
+			}
+			td.value {
+				min-width: 50px;
+				text-align: right;
+			}
+			img {
+				display: inline;
+				vertical-align: middle;
+				width: 32px;
+				height: 32px;
+				padding-right: 1em;
+				margin: 0;
+				line-height: 32px;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+		  <tr>
+		  	<td class="title">Win / Lose:</td>
+		  	<td id="winlose" class="value">0 / 0</td>
+		  </tr>
+		  <tr>
+		  	<td class="title"><img src="taunt.png"></img>Taunt KOs:</td>
+		  	<td id="taunt" class="value">0</td>
+		  </tr>
+		  <tr>
+		  	<td class="title"><img src="rage.png"></img>Rage Quits:</td>
+		  	<td id="rage" class="value">0</td>
+		  </tr>
+		</table>
+		<script src="./service.js"></script>
+	</body>
+</html>
